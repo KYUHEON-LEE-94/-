@@ -3,7 +3,7 @@ array = [7, 5, 9, 0, 3, 1, 6, 2, 4, 8]
 for i in range(1, len(array)):
     print("I: ", end='')
     print(i) #첫번째 인덱스부터 시작한다!
-    for j in range(i, 0, -1): #인덱스 i부터 1까지 1씩 감소하며 반복하는 문법
+    for j in range(i, 0, -1): #인덱스 i부터 1까지(0은 미포함) 1씩 감소하며 반복하는 문법
         print("J: ", end='')
         print(array[j])
         print(array[j - 1])
