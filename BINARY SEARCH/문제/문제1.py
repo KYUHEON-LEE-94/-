@@ -9,7 +9,7 @@ end = max(array)
 result = 0
 while(start <= end):
     total = 0
-    mid = (start + end) // 2
+    mid = (start + end) // 2 #중간점 = 칼의 높이
     for x in array:
         #잘랐을 때의 떡의 양 계산
         if x > mid:
